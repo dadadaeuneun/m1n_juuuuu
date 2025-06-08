@@ -13,7 +13,8 @@ st.markdown("""
     🥰 사랑해!!!!! 💗 싸랑해!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!!!!!!!!!!!!!!!!!!!<br>
     ❤️‍🔥 <span style='color: red; font-weight: bold;'>i love you!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</span><br>
     💞 사랑해애애ㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐ<br>
-    💘 tkfkdgksekrh!!!!!!!!!!!!!!!!!!!!!!!민주!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
+    💘 tkfkdgksekrh!!!!!!!!!!!!!!!!!!!!!!!민주!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1<br>
+    민주야 너를 처음 만났을 때 부터 내 심장은 뛰고 있었어 암튼 사랑해 내마음을 바아ㅏㅏㅏㅏㅏㅏ줄래ㅐㅐ????????????????
 </div>
 """, unsafe_allow_html=True)
 
@@ -23,12 +24,12 @@ st.success("🎂 민주야 진짜진짜 생일 축하해 💕")
 
 st.markdown("""
 <div style='text-align: right; font-size: 20px; margin-top: 40px;'>
-    by 너를 사랑하는 다은이가...... 🥹💌
+    by 너를 사랑하는 다은이가...... 와 그녀의 친구들🥹💌
 </div>
 """, unsafe_allow_html=True)
 
 st.write("---")
-st.header("💌 친구들의 축하 메시지 남기기")
+st.header("💌 친구들의 사랑의 축하 메시지 남기기")
 
 # 메시지 저장 파일 경로
 MESSAGE_FILE = "messages.json"
@@ -41,7 +42,7 @@ else:
     messages = []
 
 # 입력창
-new_message = st.text_area("여기에 축하 메시지를 적어주세요:", height=100)
+new_message = st.text_area("여기에 사랑의 축하 메시지를 적어주세요:", height=100)
 
 # 제출 처리
 if st.button("메시지 보내기"):
@@ -55,6 +56,6 @@ if st.button("메시지 보내기"):
 
 # 모든 메시지 표시
 if messages:
-    st.write("### 💬 지금까지 남겨진 메시지들:")
+    st.write("### 💬 지금까지 남겨진 사랑의 💘 메시지들:")
     for i, msg in enumerate(messages, 1):
         st.markdown(f"**{i}.** {msg}")
