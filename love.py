@@ -24,7 +24,7 @@ st.success("🎂 민주야 진짜진짜 생일 축하해 💕")
 
 st.markdown("""
 <div style='text-align: right; font-size: 20px; margin-top: 40px;'>
-    by 너를 사랑하는 다은이가...... 와 그녀의 친구들🥹💌
+    by 너를 사랑하는 다은이가...... 🥹💌
 </div>
 """, unsafe_allow_html=True)
 
